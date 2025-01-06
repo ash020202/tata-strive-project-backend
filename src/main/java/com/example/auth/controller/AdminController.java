@@ -28,7 +28,7 @@ import com.example.auth.repository.OrderRepository;
 import com.example.auth.service.ContactFormService;
 import com.example.auth.service.ReservationService;
 // @CrossOrigin(origins = "http://localhost:5173")
-@CrossOrigin(origins = "https://tata-strive-project.onrender.com/")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/admin")
 public class AdminController {

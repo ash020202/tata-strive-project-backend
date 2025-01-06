@@ -16,7 +16,9 @@ import org.springframework.web.bind.annotation.*;
 
 
 // @CrossOrigin(origins = "http://localhost:5173")
-@CrossOrigin(origins = "https://tata-strive-project.onrender.com/")
+
+
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/user")
 public class UserController {
